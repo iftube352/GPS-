@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS Chambai — Complete Visual Asset Archive Gallery</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-light: #3b82f6;
+            --secondary: #059669;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --border: #334155;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            padding: 24px;
+            line-height: 1.5;
+        }
+        .header {
+            text-align: center;
+            padding: 32px 16px;
+            background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            margin-bottom: 32px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            color: #38bdf8;
+            margin-bottom: 8px;
+        }
+        .header p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            background: rgba(255,255,255,0.05);
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+        .stat-value {
+            font-weight: bold;
+            color: #38bdf8;
+        }
+        .category-section {
+            margin-bottom: 48px;
+        }
+        .category-title {
+            font-size: 1.5rem;
+            border-left: 4px solid #38bdf8;
+            padding-left: 12px;
+            margin-bottom: 20px;
+            color: #f1f5f9;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .asset-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .asset-card:hover {
+            transform: translateY(-4px);
+            border-color: #38bdf8;
+        }
+        .card-media {
+            height: 180px;
+            background: #020617;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-bottom: 1px solid var(--border);
+        }
+        .card-img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .doc-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .doc-icon { font-size: 3rem; }
+        .doc-ext {
+            font-size: 0.8rem;
+            background: #3b82f6;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .card-body {
+            padding: 16px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .card-badge {
+            align-self: flex-start;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background: rgba(56, 189, 248, 0.15);
+            color: #38bdf8;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        .card-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #f8fafc;
+        }
+        .card-meta {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+        .card-meta strong {
+            color: #cbd5e1;
+        }
+        .card-hash {
+            font-family: monospace;
+            font-size: 0.72rem;
+            color: #64748b;
+            margin-top: auto;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>GPS Chambai — Complete Visual Asset Archive</h1>
+        <p>Comprehensive historical image gallery, icons, documents, fonts, and media repository from the first development prompt to latest release.</p>
+        <div class="stats-bar">
+            <div class="stat-item">Total Images: <span class="stat-value">47</span></div>
+            <div class="stat-item">Logos & Icons: <span class="stat-value">0</span></div>
+            <div class="stat-item">Documents & PDFs: <span class="stat-value">2</span></div>
+            <div class="stat-item">Fonts: <span class="stat-value">1</span></div>
+            <div class="stat-item">Other Assets: <span class="stat-value">7</span></div>
+        </div>
+    </header>
+
+    <div class="category-section"><h2 class="category-title">Images (47 Assets)</h2><div class="card-grid">
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Home/20260903_200547_79893d25.png" alt="20260903_200547_79893d25.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="20260903_200547_79893d25.png">20260903_200547_79893d25.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Home</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 1,293,263 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="79893d2535e710d937bc3107d3ff4f87f7083cc11c5f3e0f0447caf8539155c5"><strong>SHA-256:</strong> 79893d2535e710d9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Home/Image_012.svg" alt="Image_012.svg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_012.svg">Image_012.svg</h3>
+                <p class="card-meta"><strong>Module:</strong> Home</p>
+                <p class="card-meta"><strong>Dimensions:</strong> VectorxVector</p>
+                <p class="card-meta"><strong>Size:</strong> 3,862 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> SVG</p>
+                <p class="card-hash" title="e3dd690bd91792e82c57b89ceb76cbafd4e011cdec44a67a1948e148baa75081"><strong>SHA-256:</strong> e3dd690bd91792e8...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Home/Image_01_3c8fa7cc.jpg" alt="Image_01_3c8fa7cc.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_01_3c8fa7cc.jpg">Image_01_3c8fa7cc.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Home</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 488,720 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="3c8fa7cc55a76d2beb132d95476b97042d30f30d7f44eb956da48d9eca458f12"><strong>SHA-256:</strong> 3c8fa7cc55a76d2b...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Home/Imgae__004_ddf9db50.png" alt="Imgae__004_ddf9db50.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Imgae__004_ddf9db50.png">Imgae__004_ddf9db50.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Home</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 396x350</p>
+                <p class="card-meta"><strong>Size:</strong> 8,121 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="ddf9db50d62ad49c55cba55e9b5fdbec65a52e8d1bb805bf3aa8f583f24605a4"><strong>SHA-256:</strong> ddf9db50d62ad49c...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Home/media_1793820905959_654a2563.png" alt="media_1793820905959_654a2563.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793820905959_654a2563.png">media_1793820905959_654a2563.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Home</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x817</p>
+                <p class="card-meta"><strong>Size:</strong> 230,558 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="6858c51a7d4eabe472d6c70cfa93b8ccdf0c6c3ff0ac549edb66b3152e2e32f5"><strong>SHA-256:</strong> 6858c51a7d4eabe4...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Home/media_1793821041404_b52251c9.png" alt="media_1793821041404_b52251c9.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821041404_b52251c9.png">media_1793821041404_b52251c9.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Home</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x817</p>
+                <p class="card-meta"><strong>Size:</strong> 230,558 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="6858c51a7d4eabe472d6c70cfa93b8ccdf0c6c3ff0ac549edb66b3152e2e32f5"><strong>SHA-256:</strong> 6858c51a7d4eabe4...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Home/media_1793821087053_68d8a828.png" alt="media_1793821087053_68d8a828.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821087053_68d8a828.png">media_1793821087053_68d8a828.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Home</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x978</p>
+                <p class="card-meta"><strong>Size:</strong> 329,324 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="60624f230392b1065d94f9da0248d0307e70879778adb6a2ce51fa30e8f96d18"><strong>SHA-256:</strong> 60624f230392b106...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Admission/Image_005_25cba3e7.jpg" alt="Image_005_25cba3e7.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_005_25cba3e7.jpg">Image_005_25cba3e7.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Admission</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 700x755</p>
+                <p class="card-meta"><strong>Size:</strong> 274,890 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="25cba3e7d3c2128fa9783f1054b1ef2f9571cf29ce0246899c2972ebbcc2f5bc"><strong>SHA-256:</strong> 25cba3e7d3c2128f...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Admission/Imgae__004_ddf9db50.png" alt="Imgae__004_ddf9db50.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Imgae__004_ddf9db50.png">Imgae__004_ddf9db50.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Admission</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 396x350</p>
+                <p class="card-meta"><strong>Size:</strong> 8,121 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="ddf9db50d62ad49c55cba55e9b5fdbec65a52e8d1bb805bf3aa8f583f24605a4"><strong>SHA-256:</strong> ddf9db50d62ad49c...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Staff_Directory/Image_008.jpg_028fd035.jpeg" alt="Image_008.jpg_028fd035.jpeg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_008.jpg_028fd035.jpeg">Image_008.jpg_028fd035.jpeg</h3>
+                <p class="card-meta"><strong>Module:</strong> Staff_Directory</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 540x1119</p>
+                <p class="card-meta"><strong>Size:</strong> 41,303 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPEG</p>
+                <p class="card-hash" title="028fd03568d1ee6211c777352faca2397af5b7739c3fab3c47b081e20861ede5"><strong>SHA-256:</strong> 028fd03568d1ee62...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Staff_Directory/Image_009.jpg_2b3e293d.jpeg" alt="Image_009.jpg_2b3e293d.jpeg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_009.jpg_2b3e293d.jpeg">Image_009.jpg_2b3e293d.jpeg</h3>
+                <p class="card-meta"><strong>Module:</strong> Staff_Directory</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 525x1280</p>
+                <p class="card-meta"><strong>Size:</strong> 31,269 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPEG</p>
+                <p class="card-hash" title="2b3e293de9a6b3cba4f5e9a09b681fa2671ca4309359467de914773bfeb82239"><strong>SHA-256:</strong> 2b3e293de9a6b3cb...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Staff_Directory/Image_011.jpg_8ca63a9c.jpeg" alt="Image_011.jpg_8ca63a9c.jpeg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_011.jpg_8ca63a9c.jpeg">Image_011.jpg_8ca63a9c.jpeg</h3>
+                <p class="card-meta"><strong>Module:</strong> Staff_Directory</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 540x1119</p>
+                <p class="card-meta"><strong>Size:</strong> 23,605 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPEG</p>
+                <p class="card-hash" title="8ca63a9c90247af48ef9fc8871781cfee3e39044fa87a2fbcab51996cd107a5a"><strong>SHA-256:</strong> 8ca63a9c90247af4...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Staff_Directory/Microsoft_Profile_78e13ce1.png" alt="Microsoft_Profile_78e13ce1.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Microsoft_Profile_78e13ce1.png">Microsoft_Profile_78e13ce1.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Staff_Directory</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2880x2880</p>
+                <p class="card-meta"><strong>Size:</strong> 4,670,099 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="78e13ce1a6dfebb9f5ec31fbc98d4c8082919b94c0dfd3b42ba17277da8afc05"><strong>SHA-256:</strong> 78e13ce1a6dfebb9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Staff_Directory/WhatsApp_Image_010.jpg_b584ca91.jpeg" alt="WhatsApp_Image_010.jpg_b584ca91.jpeg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="WhatsApp_Image_010.jpg_b584ca91.jpeg">WhatsApp_Image_010.jpg_b584ca91.jpeg</h3>
+                <p class="card-meta"><strong>Module:</strong> Staff_Directory</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 540x1119</p>
+                <p class="card-meta"><strong>Size:</strong> 42,934 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPEG</p>
+                <p class="card-hash" title="b584ca918e5afe123afb7054ab2d7d311aa123c2bf617ad6304b689021a9331a"><strong>SHA-256:</strong> b584ca918e5afe12...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/School_Gallery/image_015_968cdfa3.jpg" alt="image_015_968cdfa3.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_015_968cdfa3.jpg">image_015_968cdfa3.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> School_Gallery</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2639x2305</p>
+                <p class="card-meta"><strong>Size:</strong> 921,308 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="968cdfa3e81c4123f37a6c1327d2b638f7c58ae14fd269926868e2eae5f6aba6"><strong>SHA-256:</strong> 968cdfa3e81c4123...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/School_Gallery/image_017_98d884ba.jpg" alt="image_017_98d884ba.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_017_98d884ba.jpg">image_017_98d884ba.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> School_Gallery</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2800x3460</p>
+                <p class="card-meta"><strong>Size:</strong> 8,198,333 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="98d884ba7b616dc9d0c986a9eddf6f07be5090c35040f4e90a81d3e8f5ceb7e1"><strong>SHA-256:</strong> 98d884ba7b616dc9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/School_Gallery/image_018_bd990265.jpg" alt="image_018_bd990265.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_018_bd990265.jpg">image_018_bd990265.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> School_Gallery</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 1269x819</p>
+                <p class="card-meta"><strong>Size:</strong> 371,589 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="bd990265bb515fc5c1e4413e0c5cabd98029a7abd885dec7f7fe82856de91b06"><strong>SHA-256:</strong> bd990265bb515fc5...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Videos/yputube_d9e9a0fb.png" alt="yputube_d9e9a0fb.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="yputube_d9e9a0fb.png">yputube_d9e9a0fb.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Videos</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 192x192</p>
+                <p class="card-meta"><strong>Size:</strong> 28,988 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="d9e9a0fb6e36297283b4a872c571a146036b4f8078ac3a4a29da57aa25a0c581"><strong>SHA-256:</strong> d9e9a0fb6e362972...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Books/Image_006_f2744204.jpg" alt="Image_006_f2744204.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_006_f2744204.jpg">Image_006_f2744204.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Books</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 531x874</p>
+                <p class="card-meta"><strong>Size:</strong> 307,515 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="f27442049cc2ea216960671d8e3d9afc8c37c19b99eb1797569ddc68c16bb8b0"><strong>SHA-256:</strong> f27442049cc2ea21...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Guides/Image_006_f2744204.jpg" alt="Image_006_f2744204.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_006_f2744204.jpg">Image_006_f2744204.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Guides</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 531x874</p>
+                <p class="card-meta"><strong>Size:</strong> 307,515 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="f27442049cc2ea216960671d8e3d9afc8c37c19b99eb1797569ddc68c16bb8b0"><strong>SHA-256:</strong> f27442049cc2ea21...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Others/Image_003_27560b99.jpg" alt="Image_003_27560b99.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_003_27560b99.jpg">Image_003_27560b99.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Others</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 586x518</p>
+                <p class="card-meta"><strong>Size:</strong> 224,979 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="27560b99a3699fc13bc322756f14f1f61f46d7f5297ab737328b524e4081edaa"><strong>SHA-256:</strong> 27560b99a3699fc1...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Others/image_027_72235249.jpg" alt="image_027_72235249.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_027_72235249.jpg">image_027_72235249.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Others</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2305x3264</p>
+                <p class="card-meta"><strong>Size:</strong> 2,303,191 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="72235249ceb76d65f587808a35bc743c976265cce4fcbc963efc2f2dcb08af80"><strong>SHA-256:</strong> 72235249ceb76d65...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Others/image_032.jpg" alt="image_032.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_032.jpg">image_032.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Others</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2305x3264</p>
+                <p class="card-meta"><strong>Size:</strong> 2,303,191 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="72235249ceb76d65f587808a35bc743c976265cce4fcbc963efc2f2dcb08af80"><strong>SHA-256:</strong> 72235249ceb76d65...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Others/media_1793821063342_e7b5f0b1.jpg" alt="media_1793821063342_e7b5f0b1.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821063342_e7b5f0b1.jpg">media_1793821063342_e7b5f0b1.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Others</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 1412x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 522,596 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="10b320d85159e23deeaffc3e3e9e265682ef18026e14673971723f11fc4a8660"><strong>SHA-256:</strong> 10b320d85159e23d...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Others/media_1793821066860_9104b420.jpg" alt="media_1793821066860_9104b420.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821066860_9104b420.jpg">media_1793821066860_9104b420.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Others</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 1413x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 533,907 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="78ccf4eaea2147701cf6c2e78e789b7534112f273df872833d81a5c27f0b1faa"><strong>SHA-256:</strong> 78ccf4eaea214770...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Others/media_1793821092259_ee685f77.jpg" alt="media_1793821092259_ee685f77.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821092259_ee685f77.jpg">media_1793821092259_ee685f77.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Others</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 1414x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 230,013 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="2adbc52c7b518b638ddaeca26b1e4a414a0993af033a79a3ffd0832cc1365212"><strong>SHA-256:</strong> 2adbc52c7b518b63...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Others/media_1793897744182_8eac4af0.jpg" alt="media_1793897744182_8eac4af0.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793897744182_8eac4af0.jpg">media_1793897744182_8eac4af0.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Others</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 1413x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 533,907 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="78ccf4eaea2147701cf6c2e78e789b7534112f273df872833d81a5c27f0b1faa"><strong>SHA-256:</strong> 78ccf4eaea214770...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/Microsoft_Profile_78e13ce1.png" alt="Microsoft_Profile_78e13ce1.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Microsoft_Profile_78e13ce1.png">Microsoft_Profile_78e13ce1.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2880x2880</p>
+                <p class="card-meta"><strong>Size:</strong> 4,670,099 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="78e13ce1a6dfebb9f5ec31fbc98d4c8082919b94c0dfd3b42ba17277da8afc05"><strong>SHA-256:</strong> 78e13ce1a6dfebb9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/image_019_11ad539e.png" alt="image_019_11ad539e.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_019_11ad539e.png">image_019_11ad539e.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 500x282</p>
+                <p class="card-meta"><strong>Size:</strong> 42,895 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="11ad539e9694f11374dfa5c7e3e6e128d0692c0a73e2ea7ec983bf7eabe8ecf2"><strong>SHA-256:</strong> 11ad539e9694f113...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/image_020_a379be76.png" alt="image_020_a379be76.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_020_a379be76.png">image_020_a379be76.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 3401x1390</p>
+                <p class="card-meta"><strong>Size:</strong> 449,490 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="a379be766f728692dd28db111117de9316d4ee49b3e3dc4f33065639b7420a3f"><strong>SHA-256:</strong> a379be766f728692...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/image_021_491fb5ac.png" alt="image_021_491fb5ac.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_021_491fb5ac.png">image_021_491fb5ac.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 4775x2335</p>
+                <p class="card-meta"><strong>Size:</strong> 963,112 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="491fb5aca43dbce7a1351da4abedbe83862e8868067c56e301c55fd0dcc4d3ba"><strong>SHA-256:</strong> 491fb5aca43dbce7...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/image_022_5c47eeaa.png" alt="image_022_5c47eeaa.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_022_5c47eeaa.png">image_022_5c47eeaa.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 614x428</p>
+                <p class="card-meta"><strong>Size:</strong> 57,015 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="5c47eeaa7641583a4bb11f9938db3d7c30f318126b6505459a495bce4177f7df"><strong>SHA-256:</strong> 5c47eeaa7641583a...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/image_024_9c9c5dc0.jpg" alt="image_024_9c9c5dc0.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_024_9c9c5dc0.jpg">image_024_9c9c5dc0.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2475x3500</p>
+                <p class="card-meta"><strong>Size:</strong> 776,467 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="9c9c5dc05e985fc8bedd360f27c7e48fc0dd8f09cc6976d3be7dfbb2b3b34864"><strong>SHA-256:</strong> 9c9c5dc05e985fc8...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/image_025_84860f35.jpg" alt="image_025_84860f35.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_025_84860f35.jpg">image_025_84860f35.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2475x3500</p>
+                <p class="card-meta"><strong>Size:</strong> 1,790,534 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="84860f3516bd6e4a8af957989c9bb6490af2a7e463b6caf3eb1428bbe7b44f7e"><strong>SHA-256:</strong> 84860f3516bd6e4a...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/image_026_cc60e266.jpg" alt="image_026_cc60e266.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_026_cc60e266.jpg">image_026_cc60e266.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2475x3500</p>
+                <p class="card-meta"><strong>Size:</strong> 3,431,742 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="cc60e26621ff5c018c00074535e6b62a9be85b83ccf622b2b4234ad9c6b7c5ca"><strong>SHA-256:</strong> cc60e26621ff5c01...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Settings/image_029_0bdcb040.jpg" alt="image_029_0bdcb040.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="image_029_0bdcb040.jpg">image_029_0bdcb040.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Settings</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2480x3508</p>
+                <p class="card-meta"><strong>Size:</strong> 2,795,191 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="0bdcb040aa2bae531761436ebd9c4b5cbca7e83f1b7b3ded91853a0c1c465b45"><strong>SHA-256:</strong> 0bdcb040aa2bae53...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Navigation/Image_002_b6f76794.jpg" alt="Image_002_b6f76794.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="Image_002_b6f76794.jpg">Image_002_b6f76794.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Navigation</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 836x1474</p>
+                <p class="card-meta"><strong>Size:</strong> 234,215 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="b6f76794e86e2ec7b87a07d942686495ef00607dd577c0ad2b04108682fa1d9e"><strong>SHA-256:</strong> b6f76794e86e2ec7...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793298243653_d13c92c0.png" alt="media_1793298243653_d13c92c0.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793298243653_d13c92c0.png">media_1793298243653_d13c92c0.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 1,293,263 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="79893d2535e710d937bc3107d3ff4f87f7083cc11c5f3e0f0447caf8539155c5"><strong>SHA-256:</strong> 79893d2535e710d9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793820859874_bde5603e.png" alt="media_1793820859874_bde5603e.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793820859874_bde5603e.png">media_1793820859874_bde5603e.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 1,293,263 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="79893d2535e710d937bc3107d3ff4f87f7083cc11c5f3e0f0447caf8539155c5"><strong>SHA-256:</strong> 79893d2535e710d9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793820903366_96073c00.png" alt="media_1793820903366_96073c00.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793820903366_96073c00.png">media_1793820903366_96073c00.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 500x282</p>
+                <p class="card-meta"><strong>Size:</strong> 42,895 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="11ad539e9694f11374dfa5c7e3e6e128d0692c0a73e2ea7ec983bf7eabe8ecf2"><strong>SHA-256:</strong> 11ad539e9694f113...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793820905375_45b82536.png" alt="media_1793820905375_45b82536.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793820905375_45b82536.png">media_1793820905375_45b82536.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 396x350</p>
+                <p class="card-meta"><strong>Size:</strong> 8,121 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="ddf9db50d62ad49c55cba55e9b5fdbec65a52e8d1bb805bf3aa8f583f24605a4"><strong>SHA-256:</strong> ddf9db50d62ad49c...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793820923302_521fab99.png" alt="media_1793820923302_521fab99.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793820923302_521fab99.png">media_1793820923302_521fab99.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 1,293,263 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="79893d2535e710d937bc3107d3ff4f87f7083cc11c5f3e0f0447caf8539155c5"><strong>SHA-256:</strong> 79893d2535e710d9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793821038467_cf8b3566.png" alt="media_1793821038467_cf8b3566.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821038467_cf8b3566.png">media_1793821038467_cf8b3566.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 1,293,263 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="79893d2535e710d937bc3107d3ff4f87f7083cc11c5f3e0f0447caf8539155c5"><strong>SHA-256:</strong> 79893d2535e710d9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793821039299_146c3682.png" alt="media_1793821039299_146c3682.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821039299_146c3682.png">media_1793821039299_146c3682.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 500x282</p>
+                <p class="card-meta"><strong>Size:</strong> 42,895 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="11ad539e9694f11374dfa5c7e3e6e128d0692c0a73e2ea7ec983bf7eabe8ecf2"><strong>SHA-256:</strong> 11ad539e9694f113...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793821040582_b83a156f.png" alt="media_1793821040582_b83a156f.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821040582_b83a156f.png">media_1793821040582_b83a156f.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 396x350</p>
+                <p class="card-meta"><strong>Size:</strong> 8,121 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="ddf9db50d62ad49c55cba55e9b5fdbec65a52e8d1bb805bf3aa8f583f24605a4"><strong>SHA-256:</strong> ddf9db50d62ad49c...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793821041974_f556e408.png" alt="media_1793821041974_f556e408.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821041974_f556e408.png">media_1793821041974_f556e408.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 1,293,263 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="79893d2535e710d937bc3107d3ff4f87f7083cc11c5f3e0f0447caf8539155c5"><strong>SHA-256:</strong> 79893d2535e710d9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="03_UPLOADED_IMAGES/Unknown_Category/media_1793821087143_a69aa8d9.png" alt="media_1793821087143_a69aa8d9.png" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Image</span>
+                <h3 class="card-name" title="media_1793821087143_a69aa8d9.png">media_1793821087143_a69aa8d9.png</h3>
+                <p class="card-meta"><strong>Module:</strong> Unknown_Category</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 614x428</p>
+                <p class="card-meta"><strong>Size:</strong> 57,015 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PNG</p>
+                <p class="card-hash" title="5c47eeaa7641583a4bb11f9938db3d7c30f318126b6505459a495bce4177f7df"><strong>SHA-256:</strong> 5c47eeaa7641583a...</p>
+            </div>
+        </div>
+        </div></div><div class="category-section"><h2 class="category-title">Fonts (1 Assets)</h2><div class="card-grid">
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">MD</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Typography / Font</span>
+                <h3 class="card-name" title="Typography_Documentation.md">Typography_Documentation.md</h3>
+                <p class="card-meta"><strong>Module:</strong> Global Urdu & English Styling</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Vector Font Glyphs</p>
+                <p class="card-meta"><strong>Size:</strong> 1,300 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> MD</p>
+                <p class="card-hash" title="88156afb503569563d83b903415e476f0988e9dd2f5a323f23fb453d6c40da12"><strong>SHA-256:</strong> 88156afb50356956...</p>
+            </div>
+        </div>
+        </div></div><div class="category-section"><h2 class="category-title">Documents (2 Assets)</h2><div class="card-grid">
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">PDF</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Official Document / PDF</span>
+                <h3 class="card-name" title="SSR__School_Self_Reporting__a7a45053.pdf">SSR__School_Self_Reporting__a7a45053.pdf</h3>
+                <p class="card-meta"><strong>Module:</strong> School Administration / Reports / Books</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Print Vector Document</p>
+                <p class="card-meta"><strong>Size:</strong> 1,158,744 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PDF</p>
+                <p class="card-hash" title="a7a45053e515db333cb8e73d158e3fdd87aaac3371c50d3db31b1fe40170cb12"><strong>SHA-256:</strong> a7a45053e515db33...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">PDF</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Official Document / PDF</span>
+                <h3 class="card-name" title="pdf_23_95f6e1ac.pdf">pdf_23_95f6e1ac.pdf</h3>
+                <p class="card-meta"><strong>Module:</strong> School Administration / Reports / Books</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Print Vector Document</p>
+                <p class="card-meta"><strong>Size:</strong> 17,615,461 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PDF</p>
+                <p class="card-hash" title="95f6e1ac06b532237435414fea451e4bc67e3f91009b38c02736ba3bc47d83c1"><strong>SHA-256:</strong> 95f6e1ac06b53223...</p>
+            </div>
+        </div>
+        </div></div><div class="category-section"><h2 class="category-title">Wallpapers (4 Assets)</h2><div class="card-grid">
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="07_BACKGROUND_WALLPAPERS/Image_01_3c8fa7cc.jpg" alt="Image_01_3c8fa7cc.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Wallpaper / Hero Background</span>
+                <h3 class="card-name" title="Image_01_3c8fa7cc.jpg">Image_01_3c8fa7cc.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Hero Slider / Background Themes</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2000x2000</p>
+                <p class="card-meta"><strong>Size:</strong> 488,720 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="3c8fa7cc55a76d2beb132d95476b97042d30f30d7f44eb956da48d9eca458f12"><strong>SHA-256:</strong> 3c8fa7cc55a76d2b...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="07_BACKGROUND_WALLPAPERS/image_015_968cdfa3.jpg" alt="image_015_968cdfa3.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Wallpaper / Hero Background</span>
+                <h3 class="card-name" title="image_015_968cdfa3.jpg">image_015_968cdfa3.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Hero Slider / Background Themes</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2639x2305</p>
+                <p class="card-meta"><strong>Size:</strong> 921,308 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="968cdfa3e81c4123f37a6c1327d2b638f7c58ae14fd269926868e2eae5f6aba6"><strong>SHA-256:</strong> 968cdfa3e81c4123...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="07_BACKGROUND_WALLPAPERS/image_017_98d884ba.jpg" alt="image_017_98d884ba.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Wallpaper / Hero Background</span>
+                <h3 class="card-name" title="image_017_98d884ba.jpg">image_017_98d884ba.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Hero Slider / Background Themes</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 2800x3460</p>
+                <p class="card-meta"><strong>Size:</strong> 8,198,333 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="98d884ba7b616dc9d0c986a9eddf6f07be5090c35040f4e90a81d3e8f5ceb7e1"><strong>SHA-256:</strong> 98d884ba7b616dc9...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <img src="07_BACKGROUND_WALLPAPERS/image_018_bd990265.jpg" alt="image_018_bd990265.jpg" class="card-img" loading="lazy" />
+            </div>
+            <div class="card-body">
+                <span class="card-badge">Wallpaper / Hero Background</span>
+                <h3 class="card-name" title="image_018_bd990265.jpg">image_018_bd990265.jpg</h3>
+                <p class="card-meta"><strong>Module:</strong> Hero Slider / Background Themes</p>
+                <p class="card-meta"><strong>Dimensions:</strong> 1269x819</p>
+                <p class="card-meta"><strong>Size:</strong> 371,589 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JPG</p>
+                <p class="card-hash" title="bd990265bb515fc5c1e4413e0c5cabd98029a7abd885dec7f7fe82856de91b06"><strong>SHA-256:</strong> bd990265bb515fc5...</p>
+            </div>
+        </div>
+        </div></div><div class="category-section"><h2 class="category-title">Other Files (7 Assets)</h2><div class="card-grid">
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">ZIP</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">AI Assistant Icon / Supplementary</span>
+                <h3 class="card-name" title="android_base_template.zip">android_base_template.zip</h3>
+                <p class="card-meta"><strong>Module:</strong> AI Hub / Integrations</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Graphic</p>
+                <p class="card-meta"><strong>Size:</strong> 1,255,645 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> ZIP</p>
+                <p class="card-hash" title="64e2b2a319f72481892738414ef804d6c39f752a55fcd716e42c74e77a415bca"><strong>SHA-256:</strong> 64e2b2a319f72481...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">JSON</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">AI Assistant Icon / Supplementary</span>
+                <h3 class="card-name" title="apk-build-manifest.json">apk-build-manifest.json</h3>
+                <p class="card-meta"><strong>Module:</strong> AI Hub / Integrations</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Graphic</p>
+                <p class="card-meta"><strong>Size:</strong> 6,101 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JSON</p>
+                <p class="card-hash" title="22f58a797a86b46936244d6e21a791f150ea80bc12b9788597e366fd40bb6378"><strong>SHA-256:</strong> 22f58a797a86b469...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">DEX</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">AI Assistant Icon / Supplementary</span>
+                <h3 class="card-name" title="base_classes.dex">base_classes.dex</h3>
+                <p class="card-meta"><strong>Module:</strong> AI Hub / Integrations</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Graphic</p>
+                <p class="card-meta"><strong>Size:</strong> 6,296 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> DEX</p>
+                <p class="card-hash" title="5ff4acc6b3d1b34db676169966cd998951a8430b18840f846dc500ed1a52d40d"><strong>SHA-256:</strong> 5ff4acc6b3d1b34d...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">PY</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">AI Assistant Icon / Supplementary</span>
+                <h3 class="card-name" title="build_apk.py">build_apk.py</h3>
+                <p class="card-meta"><strong>Module:</strong> AI Hub / Integrations</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Graphic</p>
+                <p class="card-meta"><strong>Size:</strong> 29,290 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PY</p>
+                <p class="card-hash" title="4e6ad1cc2abedf03829bb6045f4e6d7c884fe8009398810734c035d8fd7ba4a6"><strong>SHA-256:</strong> 4e6ad1cc2abedf03...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">PY</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">AI Assistant Icon / Supplementary</span>
+                <h3 class="card-name" title="native_apk_template.py">native_apk_template.py</h3>
+                <p class="card-meta"><strong>Module:</strong> AI Hub / Integrations</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Graphic</p>
+                <p class="card-meta"><strong>Size:</strong> 7,258 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PY</p>
+                <p class="card-hash" title="10c7592bef2c41ba76a8c3dfd7e9cb15f01a3d018bad653a70868587c2637bf3"><strong>SHA-256:</strong> 10c7592bef2c41ba...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">PY</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">AI Assistant Icon / Supplementary</span>
+                <h3 class="card-name" title="patch_dex_filechooser.py">patch_dex_filechooser.py</h3>
+                <p class="card-meta"><strong>Module:</strong> AI Hub / Integrations</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Graphic</p>
+                <p class="card-meta"><strong>Size:</strong> 32,994 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> PY</p>
+                <p class="card-hash" title="25b9ff41f42ae7d3c65d52a7b7087e8f9ad4f2c6b650eeffb24c5b500b3e9bb1"><strong>SHA-256:</strong> 25b9ff41f42ae7d3...</p>
+            </div>
+        </div>
+        
+        <div class="asset-card">
+            <div class="card-media">
+                <div class="doc-placeholder"><span class="doc-icon">📄</span><span class="doc-ext">JSON</span></div>
+            </div>
+            <div class="card-body">
+                <span class="card-badge">AI Assistant Icon / Supplementary</span>
+                <h3 class="card-name" title="version-manifest.json">version-manifest.json</h3>
+                <p class="card-meta"><strong>Module:</strong> AI Hub / Integrations</p>
+                <p class="card-meta"><strong>Dimensions:</strong> Graphic</p>
+                <p class="card-meta"><strong>Size:</strong> 6,101 bytes</p>
+                <p class="card-meta"><strong>Format:</strong> JSON</p>
+                <p class="card-hash" title="22f58a797a86b46936244d6e21a791f150ea80bc12b9788597e366fd40bb6378"><strong>SHA-256:</strong> 22f58a797a86b469...</p>
+            </div>
+        </div>
+        </div></div>
+</body>
+</html>

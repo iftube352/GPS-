@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#ffffff" rx="64"/>
+  <!-- Left Hemisphere: Organic Brain in Dark Teal (#053B50) -->
+  <g fill="none" stroke="#053B50" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center vertical stem of left hemisphere -->
+    <path d="M 244 96 L 244 416" />
+    <!-- Outer contour of left brain hemisphere -->
+    <path d="M 244 96
+             C 220 68, 172 68, 148 96
+             C 112 96, 84 124, 88 162
+             C 58 182, 50 226, 68 260
+             C 48 292, 58 340, 92 360
+             C 92 396, 126 422, 162 414
+             C 182 442, 228 440, 244 416" />
+    <!-- Internal sulci / gyri curves matching Image 035 -->
+    <path d="M 148 96 C 154 128, 182 142, 212 134" />
+    <path d="M 192 114 C 198 140, 178 164, 150 166" />
+    <path d="M 88 162 C 118 166, 138 186, 134 214" />
+    <path d="M 114 196 C 146 196, 174 212, 188 190" />
+    <path d="M 244 176 C 212 176, 192 196, 196 224" />
+    <path d="M 68 260 C 102 260, 128 242, 154 256" />
+    <path d="M 124 252 C 122 280, 148 298, 178 292" />
+    <path d="M 244 264 C 206 264, 182 282, 178 312" />
+    <path d="M 92 360 C 124 352, 148 330, 144 304" />
+    <path d="M 162 414 C 164 382, 188 362, 216 366" />
+    <path d="M 192 368 C 194 344, 216 332, 244 334" />
+  </g>
+
+  <!-- Right Hemisphere: Digital Circuit Brain in Dark Teal (#053B50) -->
+  <g fill="none" stroke="#053B50" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center vertical stem of right hemisphere -->
+    <path d="M 268 96 L 268 416" />
+    <!-- Outer contour of right hemisphere -->
+    <path d="M 268 96
+             C 292 68, 340 68, 364 96
+             C 400 96, 428 124, 424 162
+             C 454 182, 462 226, 444 260
+             C 464 292, 454 340, 420 360
+             C 420 396, 386 422, 350 414
+             C 330 442, 284 440, 268 416" stroke-width="13" />
+
+    <!-- PCB Circuit Traces -->
+    <path d="M 268 128 L 304 128 L 328 104" />
+    <path d="M 268 160 L 316 160 L 348 128 L 376 128" />
+    <path d="M 356 162 L 384 162 L 404 182" />
+    <path d="M 268 196 L 332 196 L 360 224 L 402 224" />
+    <path d="M 304 196 L 304 228 L 328 252" />
+    <path d="M 372 192 L 416 192" />
+    <path d="M 268 244 L 296 244 L 320 268 L 374 268 L 398 244" />
+    <path d="M 412 266 L 444 260" />
+    <path d="M 268 286 L 340 286 L 368 314 L 408 314" />
+    <path d="M 268 320 L 308 320 L 336 348 L 382 348" />
+    <path d="M 268 356 L 300 356 L 326 382 L 362 382" />
+    <path d="M 268 390 L 306 390 L 324 408" />
+    <path d="M 388 286 L 420 286" />
+  </g>
+
+  <!-- Circuit Nodes (Hollow White Circles with Dark Teal Stroke) -->
+  <g fill="#ffffff" stroke="#053B50" stroke-width="9">
+    <circle cx="334" cy="98" r="10" />
+    <circle cx="384" cy="128" r="10" />
+    <circle cx="348" cy="162" r="10" />
+    <circle cx="410" cy="188" r="10" />
+    <circle cx="364" cy="192" r="10" />
+    <circle cx="410" cy="224" r="10" />
+    <circle cx="334" cy="256" r="10" />
+    <circle cx="404" cy="238" r="10" />
+    <circle cx="428" cy="286" r="10" />
+    <circle cx="416" cy="314" r="10" />
+    <circle cx="390" cy="348" r="10" />
+    <circle cx="370" cy="382" r="10" />
+    <circle cx="330" cy="414" r="10" />
+  </g>
+</svg>

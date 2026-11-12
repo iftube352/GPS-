@@ -1,0 +1,19 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0017
+2. PROMPT TITLE/TOPIC  : Daily Attendance Register & Roll Call System
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Daily Attendance)
+4. DEVELOPMENT DATE    : 2026-11-04 20:00:00 UTC
+5. RELATED MODULE      : Attendance Submodule
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/OtherModule/AttendanceSubmodule.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Create a daily attendance register for students:
+- Mark attendance per class: Present (P), Absent (A), Leave (L), Late (T).
+- Prevent duplicate entries for the same date.
+- Monthly attendance register table view with total working days, days present, and percentage calculation.
+- Printable monthly attendance sheet.
+================================================================================

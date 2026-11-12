@@ -1,0 +1,18 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0018
+2. PROMPT TITLE/TOPIC  : School Leaving Certificate Generator (EMIS 16454)
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Certificate Issue)
+4. DEVELOPMENT DATE    : 2026-11-04 20:30:00 UTC
+5. RELATED MODULE      : Certificate Issue Submodule
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/OtherModule/CertificateIssueSubmodule.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Build an official School Leaving Certificate (سرٹیفکیٹ اخراج / سکول چھوڑنے کا سرٹیفکیٹ) generator:
+- Header with KP Government logo, School name 'Govt. Primary School Chambai Kohat', and EMIS Code 16454.
+- Certificate Serial Number, Admission No, Student Name, Father's Name, Date of Birth (in figures and words), Class in which last studied, Reason for leaving, Conduct, Attendance percentage, and Date of issue.
+- Dual signature blocks for Class Teacher and Headmaster with official school stamp. Printable in A4 format.
+================================================================================

@@ -1,0 +1,76 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiBg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#4F46E5" />
+      <stop offset="50%" stopColor="#7C3AED" />
+      <stop offset="100%" stopColor="#2563EB" />
+    </linearGradient>
+    <linearGradient id="geminiSpark" x1="48" y1="48" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#60A5FA" />
+      <stop offset="50%" stopColor="#C084FC" />
+      <stop offset="100%" stopColor="#F472B6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Rounded Squircle App Icon Base -->
+  <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#aiBg)" />
+  <rect x="5.5" y="5.5" width="117" height="117" rx="28.5" stroke="white" stroke-opacity="0.3" stroke-width="3" />
+
+  <!-- Outer Cyber Circuit Tracks -->
+  <circle cx="64" cy="64" r="46" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="8 6" />
+  <circle cx="64" cy="64" r="34" stroke="white" stroke-opacity="0.25" stroke-width="1.5" />
+
+  <!-- Center Gemini 4-Point Sparkle -->
+  <path d="M64 36C64 51.464 51.464 64 36 64C51.464 64 64 76.536 64 92C64 76.536 76.536 64 92 64C76.536 64 64 51.464 64 36Z" fill="url(#geminiSpark)" filter="url(#glow)" />
+
+  <!-- 6 Orbiting AI Nodes -->
+  <!-- 1. ChatGPT Top (Emerald) -->
+  <g transform="translate(64, 18)">
+    <circle cx="0" cy="0" r="11" fill="#10A37F" stroke="white" stroke-width="2" />
+    <!-- OpenAI spiral knot -->
+    <path d="M-3.5 -2.5A3 3 0 0 1 2 -3.5L2 -1A1.5 1.5 0 0 0 -1.5 0.5ZM3.5 -0.5A3 3 0 0 1 3.5 3.5L1.5 2.5A1.5 1.5 0 0 0 1.5 -0.5ZM1.5 3.5A3 3 0 0 1 -3 3.5L-1.5 2A1.5 1.5 0 0 0 1 2Z" fill="white" />
+  </g>
+
+  <!-- 2. DeepSeek Top-Right (Royal Blue) -->
+  <g transform="translate(104, 40)">
+    <circle cx="0" cy="0" r="11" fill="#0D53FF" stroke="white" stroke-width="2" />
+    <!-- Whale wave -->
+    <path d="M-4.5 1C-3.5 -2.5 1 -4 3.5 -1.5C2 -0.5 0 0 -1.5 2.5Z" fill="white" />
+  </g>
+
+  <!-- 3. Claude Bottom-Right (Terracotta) -->
+  <g transform="translate(104, 88)">
+    <circle cx="0" cy="0" r="11" fill="#CC785C" stroke="white" stroke-width="2" />
+    <!-- Sunburst Asterisk -->
+    <path d="M0 -5L1 -1L5 0L1 1L0 5L-1 1L-5 0L-1 -1Z" fill="white" />
+  </g>
+
+  <!-- 4. Copilot Bottom (Dark / Multi) -->
+  <g transform="translate(64, 110)">
+    <circle cx="0" cy="0" r="11" fill="#0F172A" stroke="white" stroke-width="2" />
+    <path d="M-3 -3C-1 -5 3 -4 4 -2L1 3C0 4 -3 3 -4 1Z" fill="#38BDF8" />
+    <path d="M3 3C1 5 -3 4 -4 2L-1 -3C0 -4 3 -3 4 -1Z" fill="#F43F5E" />
+  </g>
+
+  <!-- 5. Meta AI Bottom-Left (Cyan-Blue) -->
+  <g transform="translate(24, 88)">
+    <circle cx="0" cy="0" r="11" fill="#0081FB" stroke="white" stroke-width="2" />
+    <!-- Infinity loop -->
+    <path d="M-4 1.5C-2.5 3.5 0 0 1.5 -1.5C2.5 -2.5 4 -1 3.5 1C2.5 3.5 0 0 -1.5 1.5C-2.5 2.5 -4 1 -3.5 -1Z" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- 6. AI Core Chip Top-Left (Gold/Purple) -->
+  <g transform="translate(24, 40)">
+    <circle cx="0" cy="0" r="11" fill="#8B5CF6" stroke="white" stroke-width="2" />
+    <rect x="-4" y="-4" width="8" height="8" rx="2" fill="white" />
+    <circle cx="0" cy="0" r="2" fill="#7C3AED" />
+  </g>
+
+  <!-- Central "AI" Monogram Badge -->
+  <rect x="52" y="55" width="24" height="18" rx="6" fill="#0F172A" fill-opacity="0.9" stroke="white" stroke-width="1.5" />
+  <text x="64" y="68" fill="#FBBF24" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="11" text-anchor="middle" letter-spacing="1">AI</text>
+</svg>

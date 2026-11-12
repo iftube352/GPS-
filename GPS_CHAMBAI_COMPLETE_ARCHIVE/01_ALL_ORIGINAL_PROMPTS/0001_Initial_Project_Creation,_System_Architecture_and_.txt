@@ -1,0 +1,22 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0001
+2. PROMPT TITLE/TOPIC  : Initial Project Creation, System Architecture & GPS Chambai Setup
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Initial Project Creation)
+4. DEVELOPMENT DATE    : 2026-11-04 10:00:00 UTC
+5. RELATED MODULE      : Core Architecture / System Initialization
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/App.tsx, src/main.tsx, src/index.css, metadata.json, index.html
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Build a comprehensive school management application for Government Primary School (GPS) Chambai Kohat, Khyber Pakhtunkhwa (KP), Pakistan.
+School Details:
+- Name: Government Primary School Chambai Kohat (گورنمنٹ پرائمری سکول چمبئی کوہاٹ)
+- Subtitle: Elementary & Secondary Education Department, Khyber Pakhtunkhwa (محکمہ ابتدائی و ثانوی تعلیم، خیبر پختونخوا)
+- EMIS Code: 16454
+- Circle: Jarma
+- District: Kohat
+The application must be offline-first, support full English and Urdu (RTL) localization, have a modern responsive UI suited for mobile and desktop, and provide core primary school administration workflows.
+================================================================================

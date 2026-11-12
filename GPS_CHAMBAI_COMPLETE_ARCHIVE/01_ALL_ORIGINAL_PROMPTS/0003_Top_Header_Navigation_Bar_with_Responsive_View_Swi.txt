@@ -1,0 +1,22 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0003
+2. PROMPT TITLE/TOPIC  : Top Header Navigation Bar with Responsive View Switcher (Image 014.png)
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Header & View Switcher)
+4. DEVELOPMENT DATE    : 2026-11-04 11:30:00 UTC
+5. RELATED MODULE      : Header / Navigation
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/common/Header.tsx, src/types/index.ts
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Implement the top navigation header styled in emerald green gradient (#046C4E to #057A55) matching Image 014.png:
+1. Back navigation button when inside submodules.
+2. Quick shortcut button to 'GPS Chambai Folder' explorer modal.
+3. Responsive device view mode toggle switch on the right side offering:
+   - Mobile View (Smartphone icon)
+   - Tablet View (Tablet icon)
+   - Laptop / Desktop Full View (Monitor icon)
+4. Smooth container width adjustments reflecting real mobile and tablet frames.
+================================================================================

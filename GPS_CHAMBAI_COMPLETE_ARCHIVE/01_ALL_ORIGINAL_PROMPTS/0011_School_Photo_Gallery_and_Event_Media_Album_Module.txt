@@ -1,0 +1,17 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0011
+2. PROMPT TITLE/TOPIC  : School Photo Gallery & Event Media Album Module
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Gallery Module)
+4. DEVELOPMENT DATE    : 2026-11-04 17:00:00 UTC
+5. RELATED MODULE      : Gallery Module
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/GalleryModule.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Build the School Gallery module to document school activities, campus grounds, sports day, morning assembly, independence day, and prize distributions:
+- Categorized photo albums (Campus, Classrooms, Activities, Events, Co-curricular).
+- Image lightbox preview, title, date, photographer credit, and download/share support.
+================================================================================

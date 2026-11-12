@@ -1,0 +1,18 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0019
+2. PROMPT TITLE/TOPIC  : Struck-Off & Student Re-Admission Register
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Struck Off)
+4. DEVELOPMENT DATE    : 2026-11-04 21:00:00 UTC
+5. RELATED MODULE      : Struck Off Submodule
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/OtherModule/StruckOffSubmodule.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Implement a Struck-Off management register for inactive or withdrawn students:
+- Record reason for striking off (Continuous Absence, Migration, Fee Default, Other).
+- Date struck off, parent notification date.
+- One-click Re-Admission workflow restoring student to active roster with re-admission date and fee receipt record.
+================================================================================

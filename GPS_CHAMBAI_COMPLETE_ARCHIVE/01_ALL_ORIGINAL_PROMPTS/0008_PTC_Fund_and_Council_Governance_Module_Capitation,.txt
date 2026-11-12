@@ -1,0 +1,20 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0008
+2. PROMPT TITLE/TOPIC  : PTC Fund & Council Governance Module (Capitation, Consumable & Petty Repairs)
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - PTC Fund)
+4. DEVELOPMENT DATE    : 2026-11-04 15:15:00 UTC
+5. RELATED MODULE      : PTC Fund Module
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/PtcFundModule.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Implement Parent Teacher Council (PTC) Fund tracking for GPS Chambai according to KP Elementary & Secondary Education rules:
+- Manage grants under 3 government heads:
+  1. Capitation Grant
+  2. Consumable Grant
+  3. Petty Repair Grant
+- Track income allocations, voucher expenses, receipts, council meeting resolutions, bank account balance, and generate official printable cash-book statements and expenditure reports.
+================================================================================

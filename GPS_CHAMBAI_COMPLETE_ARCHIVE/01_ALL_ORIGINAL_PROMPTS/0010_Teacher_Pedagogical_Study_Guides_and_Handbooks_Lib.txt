@@ -1,0 +1,15 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0010
+2. PROMPT TITLE/TOPIC  : Teacher Pedagogical Study Guides & Handbooks Library
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Study Guides)
+4. DEVELOPMENT DATE    : 2026-11-04 16:30:00 UTC
+5. RELATED MODULE      : Books & Guides Module
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/BooksAndGuidesModule.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Provide a dedicated Study Guides category for teacher handbooks, Single National Curriculum (SNC) teaching guides, ECE Activity Handbooks, and model lesson materials. Support uploading, categorizing, viewing, and downloading teacher guides.
+================================================================================

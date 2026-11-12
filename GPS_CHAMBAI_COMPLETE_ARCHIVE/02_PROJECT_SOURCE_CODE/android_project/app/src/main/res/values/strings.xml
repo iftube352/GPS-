@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GPS Chambai</string>
+    <string name="school_name">Govt. Primary School Chambai Kohat</string>
+    <string name="school_subtitle">Elementary &amp; Secondary Education Department, Khyber Pakhtunkhwa</string>
+    <string name="tagline">Excellence in Primary Education · شخصیت بلحاظ علم</string>
+    <string name="module_class">Classes</string>
+    <string name="module_books">Books</string>
+    <string name="module_guides">Guides</string>
+    <string name="module_videos">Videos</string>
+    <string name="module_other">Other</string>
+    <string name="module_admission">Admission</string>
+    <string name="add">Add New</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+</resources>

@@ -1,0 +1,17 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0007
+2. PROMPT TITLE/TOPIC  : Staff Directory Module, Teacher Profiles & Qualifications
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Staff Directory)
+4. DEVELOPMENT DATE    : 2026-11-04 14:30:00 UTC
+5. RELATED MODULE      : Staff Directory Module
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/StaffDirectoryModule.tsx, src/components/modules/OtherModule/TeacherStaffDirectoryView.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Build the Staff Directory module for teaching and non-teaching personnel at GPS Chambai:
+- Store teacher details: Full Name (Urdu & English), Designation (PSHT, PST, SPST, AT, Qari), Department, Personal Number, CNIC, Phone, Email, Academic & Professional Qualifications (e.g., M.Sc, B.Ed, M.Ed), Assigned Classes and Subjects, Date of Joining, and Status.
+- Photo upload, profile card view, search filter, and printable official staff roster document.
+================================================================================

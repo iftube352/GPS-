@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">جی پی ایس چمبئی</string>
+    <string name="school_name">گورنمنٹ پرائمری سکول چمبئی کوہاٹ</string>
+    <string name="school_subtitle">محکمہ ابتدائی و ثانوی تعلیم، خیبر پختونخوا</string>
+    <string name="module_class">جماعتیں</string>
+    <string name="module_books">درسی کتب</string>
+    <string name="module_guides">رہنما کتب</string>
+    <string name="module_videos">تعلیمی ویڈیوز</string>
+    <string name="module_other">دیگر ریکارڈز</string>
+    <string name="module_admission">داخلہ فارم</string>
+    <string name="add">نیا شامل کریں</string>
+    <string name="save">محفوظ کریں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="delete">حذف کریں</string>
+    <string name="edit">ترمیم کریں</string>
+</resources>

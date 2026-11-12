@@ -1,0 +1,10 @@
+{
+  "name": "GPS Chambai Kohat 1.0.5",
+  "description": "Government Primary School Chambai Kohat, \nKhyber Pakhtunkhwa",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

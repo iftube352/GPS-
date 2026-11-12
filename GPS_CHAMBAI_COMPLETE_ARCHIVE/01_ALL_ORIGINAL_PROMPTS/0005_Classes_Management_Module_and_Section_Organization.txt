@@ -1,0 +1,19 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0005
+2. PROMPT TITLE/TOPIC  : Classes Management Module & Section Organization
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Classes Module)
+4. DEVELOPMENT DATE    : 2026-11-04 13:00:00 UTC
+5. RELATED MODULE      : Classes Module
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/ClassModule.tsx, src/utils/classColors.ts
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Build the Class Management module for GPS Chambai:
+- Pre-populate official grades: Kachi (ECE), Nursery, Class 1, Class 2, Class 3, Class 4, and Class 5.
+- Support adding custom classes, section names (e.g. Section A, B), room numbers, and assigned class teachers.
+- Display enrolled student counts, linked curriculum books, and assigned teachers for each class card.
+- Allow editing, deleting (with confirmation), and searching classes.
+================================================================================

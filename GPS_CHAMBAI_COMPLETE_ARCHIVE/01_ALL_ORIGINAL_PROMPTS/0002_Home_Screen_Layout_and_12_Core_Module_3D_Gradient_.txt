@@ -1,0 +1,30 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0002
+2. PROMPT TITLE/TOPIC  : Home Screen Layout & 12 Core Module 3D Gradient Cards
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Home Screen Layout)
+4. DEVELOPMENT DATE    : 2026-11-04 10:45:00 UTC
+5. RELATED MODULE      : Home Screen Module
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/HomeScreen.tsx, src/components/common/MonochromeIcons.tsx, src/types/index.ts
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Design an interactive Home Screen for GPS Chambai featuring:
+1. School Building Illustration Banner with Pakistani Flag, courtyard with 'CHAMBAI' plinth plinth inscription, and official circular school logo crest.
+2. Official school details: 'Govt. Primary School Chambai Kohat', 'EMIS School Code: 16454 • Circle: Jarma', 'Elementary & Secondary Education Department, KP'.
+3. 12 Core Module Cards arranged in a 2-column responsive grid with distinctive gradients, monochrome icons, dual English and Urdu labels, and subtitle descriptions:
+   - Admission (داخلہ)
+   - Daily Attendance (روزانہ حاضری)
+   - Staff Data (اسٹاف ڈیٹا)
+   - PTC Fund & Council (پی ٹی سی فنڈ اور کونسل)
+   - Books & Guides (کتابیں اور گائیڈز)
+   - Gallery (گیلری)
+   - Videos (ویڈیوز)
+   - Office Data (دفتری ریکارڈ)
+   - Backup & Restore (بیک اپ اور بحالی)
+   - AI Teaching Suite (مصنوعی ذہانت AI)
+   - SSR Self Reporting (سکول سیلف رپورٹنگ)
+   - Others (دیگر)
+================================================================================

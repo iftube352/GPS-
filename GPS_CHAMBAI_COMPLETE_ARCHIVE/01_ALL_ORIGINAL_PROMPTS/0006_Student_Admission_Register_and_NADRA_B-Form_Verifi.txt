@@ -1,0 +1,18 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0006
+2. PROMPT TITLE/TOPIC  : Student Admission Register & NADRA B-Form Verification
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Admission Register)
+4. DEVELOPMENT DATE    : 2026-11-04 13:45:00 UTC
+5. RELATED MODULE      : Admission Module
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/AdmissionModule.tsx, src/components/common/StudentIdCard.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Implement a comprehensive Student Admission Register (داخلہ خارج رجسٹر) for GPS Chambai:
+- Auto-generate sequential admission numbers while allowing manual input with uniqueness validation.
+- Fields: Admission Date, Student Full Name, Father's Name, Date of Birth (with age calculation), Gender, Parent Mobile Number (Pakistani format 03XX-XXXXXXX), NADRA B-Form / CNIC number (13 digits with dashes), Class enrolled, Home address, and student avatar photo.
+- Student list with search, class filter, printable General Admission Register sheet, and printable official Student ID Card.
+================================================================================

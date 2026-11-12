@@ -1,0 +1,18 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0009
+2. PROMPT TITLE/TOPIC  : Curriculum Textbooks SAF PDF Library & Subject Filtering
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Books Library)
+4. DEVELOPMENT DATE    : 2026-11-04 16:00:00 UTC
+5. RELATED MODULE      : Books & Guides Module
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/BooksAndGuidesModule.tsx, src/components/modules/PdfViewerModal.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Create an educational books repository for Khyber Pakhtunkhwa textbook board curriculum:
+- Pre-populate books for Kachi through Class 5: English, Urdu, Mathematics, General Science, Islamiat, Pashto, Social Studies.
+- Allow uploading PDF textbooks via Storage Access Framework.
+- Filter by Class, search by title/author/subject, and provide an embedded PDF document viewer modal with zoom, download, and print capabilities.
+================================================================================

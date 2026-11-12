@@ -1,0 +1,18 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0015
+2. PROMPT TITLE/TOPIC  : Examination Marks Entry & Detailed Marks Certificate (DMC) Report Cards
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Results & DMC)
+4. DEVELOPMENT DATE    : 2026-11-04 19:00:00 UTC
+5. RELATED MODULE      : Results Submodule
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/OtherModule/ResultsSubmodule.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Implement student examination results and report card generation:
+- Record marks by subject (Total & Obtained).
+- Automatic calculation of Total Obtained, Percentage, Grade (A+, A, B, C, D, F), and Pass/Fail status.
+- Generate beautiful, printable official Detailed Marks Certificate (DMC) / Report Card with school crest, student photo, father name, roll number, and teacher/headmaster signature lines.
+================================================================================

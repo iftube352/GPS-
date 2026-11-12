@@ -1,0 +1,20 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0016
+2. PROMPT TITLE/TOPIC  : Teacher Lesson Plans Module with SLOs (Image 007.png Format)
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Lesson Plans)
+4. DEVELOPMENT DATE    : 2026-11-04 19:30:00 UTC
+5. RELATED MODULE      : Lesson Plans Submodule
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/modules/OtherModule/LessonPlansSubmodule.tsx, src/components/modules/OtherModule/LessonPlanImage007View.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Build a teacher lesson planning module adhering to Directorate of Curriculum & Teacher Education (DCTE) standards matching Image 007.png:
+- Fields: Class, Subject, Date, Duration, Topic.
+- Student Learning Objectives (SLOs) categorized into Knowledge, Skills, Attitude.
+- Teaching materials & audio-visual aids.
+- Introduction, Teaching Methodology, Classroom Activities, Assessment questions, and Homework.
+- A4 printable output and Word/PDF export.
+================================================================================

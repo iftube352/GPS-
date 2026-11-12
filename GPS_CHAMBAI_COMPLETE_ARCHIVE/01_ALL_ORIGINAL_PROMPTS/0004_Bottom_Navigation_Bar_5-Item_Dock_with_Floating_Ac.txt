@@ -1,0 +1,21 @@
+================================================================================
+GPS CHAMBAI DEVELOPMENT PROMPT RECORD
+================================================================================
+1. SERIAL NUMBER       : 0004
+2. PROMPT TITLE/TOPIC  : Bottom Navigation Bar 5-Item Dock with Floating Active Indicator (Image 002.png)
+3. PROMPT CLASSIFICATION: RECONSTRUCTED HISTORICAL PROMPT (Build 001 - Bottom Navigation)
+4. DEVELOPMENT DATE    : 2026-11-04 12:15:00 UTC
+5. RELATED MODULE      : Bottom Navigation
+6. IMPLEMENTATION STATUS: Fully Implemented & Verified in Release v1.0.0
+7. RELATED SOURCE FILES: src/components/common/BottomNav.tsx
+================================================================================
+ORIGINAL / RECOVERED PROMPT TEXT:
+--------------------------------------------------------------------------------
+Create a floating bottom navigation bar following Image 002 in exact item order:
+1. Home (ہوم) - Emerald Green icon (#16A34A)
+2. Search (تلاش) - Sky Blue icon (#0284C7)
+3. Others (دیگر) - Amber/Gold icon (#F59E0B)
+4. Notifications (اطلاعات) - Pink icon (#EC4899) with unread badge counter
+5. Profile (پروفائل) - Purple icon (#9333EA)
+The dock must have a soft multi-color pastel linear gradient background, rounded pill shape, and an animated floating circular active indicator dot on top of the selected tab.
+================================================================================

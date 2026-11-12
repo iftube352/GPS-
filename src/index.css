@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq';
+  src: local('Jameel Noori Nastaleeq'),
+       local('Jameel Noori Nastaleeq Regular'),
+       url('https://cdn.jsdelivr.net/gh/alif-type/jameel-noori-nastaleeq@master/JameelNooriNastaleeq.ttf') format('truetype'),
+       url('https://fonts.gstatic.com/s/notonastaliqurdu/v20/LhWNMUPbN-oZdNFcBy1-DJYsEoTq5pudQ9L940pGPkB3Qt_DK2w.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', system-ui, -apple-system, sans-serif;
+    --font-urdu: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', 'Noto Sans Arabic', serif;
+    --font-arabic: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', 'Noto Sans Arabic', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
+    font-variant-ligatures: common-ligatures contextual;
+  }
+
+  [dir="rtl"],
+  :lang(ur),
+  .urdu-text,
+  .font-urdu {
+    font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif !important;
+    line-height: 2.15;
+    letter-spacing: 0px !important;
+    word-spacing: 2px;
+    font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
+    font-variant-ligatures: common-ligatures contextual;
+    text-rendering: optimizeLegibility;
+  }
+
+  input[dir="rtl"],
+  textarea[dir="rtl"],
+  select[dir="rtl"] {
+    font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif !important;
+    line-height: 2.0;
+    letter-spacing: 0px !important;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 8mm;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+    font-family: 'Plus Jakarta Sans', 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', sans-serif !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
