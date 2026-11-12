@@ -57,8 +57,9 @@ export interface ApkVersionConfig {
   packageId: string;
 }
 
-const APK_VERSION_CONFIG_STORAGE_KEY = 'gps_chambai_apk_version_config_v106_verified';
+const APK_VERSION_CONFIG_STORAGE_KEY = 'gps_chambai_apk_version_config_v160_verified';
 const LEGACY_APK_STORAGE_KEYS = [
+  'gps_chambai_apk_version_config_v160',
   'gps_chambai_apk_version_config_v106',
   'gps_chambai_apk_version_config_v105_verified',
   'gps_chambai_apk_version_config_v105',
@@ -67,14 +68,14 @@ const LEGACY_APK_STORAGE_KEYS = [
 ];
 
 export const DEFAULT_APK_VERSION_CONFIG: ApkVersionConfig = {
-  versionName: 'v1.0.6',
+  versionName: 'v1.6.0',
   apkFileSize: '51.35 MB',
-  downloadUrl: '/releases/GPS_Chambai_v1.0.6.apk?v=1.0.6',
-  fallbackDownloadUrl: '/releases/GPS_Chambai_v1.0.6.apk?v=1.0.6',
-  fileName: 'GPS_Chambai_v1.0.6.apk',
-  releaseDate: '2026-11-11',
+  downloadUrl: '/releases/GPS_Chambai_v1.6.0.apk?v=1.6.0',
+  fallbackDownloadUrl: '/releases/GPS_Chambai_v1.6.0.apk?v=1.6.0',
+  fileName: 'GPS_Chambai_v1.6.0.apk',
+  releaseDate: '2026-11-12',
   releaseNotes:
-    'Official GPS Chambai v1.0.6 Release (53,847,207 bytes / 51.35 MB): Verified latest production APK build.',
+    'Official GPS Chambai v1.6.0 Release (53,847,247 bytes / 51.35 MB): Verified latest production APK build.',
   packageId: 'pk.edu.gpschambai.schoolapp',
 };
 
@@ -150,18 +151,18 @@ export function resetApkVersionConfig(): ApkVersionConfig {
 
 export const DEFAULT_APK_BUILD_MANIFEST: ApkBuildManifest = {
   "packageId": "pk.edu.gpschambai.schoolapp",
-  "currentVersionName": "1.0.6",
-  "currentVersionCode": 7,
-  "latestBuildNumber": "build007",
-  "latestBuildDateTime": "2026-11-11 20:34:29 UTC",
+  "currentVersionName": "1.6.0",
+  "currentVersionCode": 16,
+  "latestBuildNumber": "build016",
+  "latestBuildDateTime": "2026-11-12 16:59:30 UTC",
   "buildStatus": "SUCCESS \u2014 VERIFIED (v1+v2 Signed)",
-  "apkFileSizeBytes": 53847207,
+  "apkFileSizeBytes": 53847247,
   "apkFileSizeFormatted": "51.35 MB",
-  "latestApkFileName": "GPS_Chambai_v1.0.6_build007.apk",
-  "latestApkDownloadUrl": "/releases/GPS_Chambai_v1.0.6_build007.apk",
+  "latestApkFileName": "GPS_Chambai_v1.6.0_build016.apk",
+  "latestApkDownloadUrl": "/releases/GPS_Chambai_v1.6.0_build016.apk",
   "buildOutputsDebugPath": "build-outputs/app-debug.apk",
   "buildOutputsDebugUrl": "/build-outputs/app-debug.apk",
-  "androidProjectZipFileName": "GPS_Chambai_Android_Studio_Project_v1.0.6_build007.zip",
+  "androidProjectZipFileName": "GPS_Chambai_Android_Studio_Project_v1.6.0_build016.zip",
   "androidProjectZipUrl": "/build-outputs/GPS_Chambai_Android_Studio_Project.zip",
   "verification": {
     "apkExists": true,
@@ -173,25 +174,25 @@ export const DEFAULT_APK_BUILD_MANIFEST: ApkBuildManifest = {
     "externalUrlActionViewVerified": true,
     "zipAlign4ByteVerified": true,
     "signatureSchemeV1V2Verified": true,
-    "latestIndexHtmlSha256": "9004ab3ee60ccf7767364a6007e251c7b2b8ccd121a3ec8123acf652ca7fdd33"
+    "latestIndexHtmlSha256": "37a617ebe2cc78219310576d53ca4a1cae137b3911c2183659f7b1cbe980670c"
   },
   "history": [
     {
-      "versionName": "1.0.6",
-      "versionCode": 7,
-      "buildNumber": "build007",
-      "fileName": "GPS_Chambai_v1.0.6_build007.apk",
-      "downloadUrl": "/releases/GPS_Chambai_v1.0.6_build007.apk",
+      "versionName": "1.6.0",
+      "versionCode": 16,
+      "buildNumber": "build016",
+      "fileName": "GPS_Chambai_v1.6.0_build016.apk",
+      "downloadUrl": "/releases/GPS_Chambai_v1.6.0_build016.apk",
       "debugDownloadUrl": "/build-outputs/app-debug.apk",
       "projectZipUrl": "/build-outputs/GPS_Chambai_Android_Studio_Project.zip",
-      "buildDateTime": "2026-11-11 20:34:29 UTC",
+      "buildDateTime": "2026-11-12 16:59:30 UTC",
       "buildStatus": "SUCCESS \u2014 VERIFIED (v1+v2 Signed)",
-      "fileSizeBytes": 53847207,
+      "fileSizeBytes": 53847247,
       "fileSizeFormatted": "51.35 MB",
       "packageId": "pk.edu.gpschambai.schoolapp",
-      "sha256Digest": "6b4a80a15b77e6b45c9172d11ae76485e579528530e249c14d3e59d8515fee97",
+      "sha256Digest": "d362eff8dab34ef6e9e6f19eb4c0af8d8bef0ea94209f227f997e9ed0f37736b",
       "sourceVerified": true,
-      "notes": "Automated Build build007 (v1.0.6, versionCode 7) \u2014 Verified from latest source code."
+      "notes": "Automated Build build016 (v1.6.0, versionCode 16) \u2014 Verified from latest source code."
     },
     {
       "versionName": "1.0.5",

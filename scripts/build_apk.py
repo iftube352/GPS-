@@ -16,81 +16,30 @@ VERSION_FILE = "version-manifest.json"
 
 
 def load_or_increment_version():
-    """
-    Automatic Version Management:
-    - Increments versionCode by +1 for every new release
-    - Updates versionName sequentially (1.0.0 -> 1.0.1 -> 1.0.2 -> ...)
-    - Never reuses an older versionCode
-    """
-    default_history = [
-        {
-            "versionName": "1.0.1",
-            "versionCode": 2,
-            "buildNumber": "build002",
-            "fileName": "GPS_Chambai_v1.0.1_build002.apk",
-            "downloadUrl": "/releases/GPS_Chambai_v1.0.1_build002.apk",
-            "debugDownloadUrl": "/build-outputs/app-debug.apk",
-            "projectZipUrl": "/build-outputs/GPS_Chambai_Android_Studio_Project.zip",
-            "buildDateTime": "2026-11-04 19:45:00 UTC",
-            "buildStatus": "SUCCESS — VERIFIED (v1+v2 Signed)",
-            "fileSizeBytes": 53578120,
-            "fileSizeFormatted": "51.10 MB",
-            "packageId": PACKAGE_ID,
-            "sha256Digest": "a41bc8921e09f45cd827163b9c871e2349ab81239c01928374651928374651a2",
-            "sourceVerified": True,
-            "notes": "Merged Books & Guides, Merged Daily Attendance, SSR 16-Page Editable Performa, Official Social Links."
-        },
-        {
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "buildNumber": "build001",
-            "fileName": "GPS_Chambai_v1.0.0_build001.apk",
-            "downloadUrl": "/releases/GPS_Chambai_v1.0.0_build001.apk",
-            "debugDownloadUrl": "/build-outputs/app-debug.apk",
-            "projectZipUrl": "/build-outputs/GPS_Chambai_Android_Studio_Project.zip",
-            "buildDateTime": "2026-11-04 17:10:00 UTC",
-            "buildStatus": "SUCCESS — VERIFIED (v1+v2 Signed)",
-            "fileSizeBytes": 53512400,
-            "fileSizeFormatted": "51.03 MB",
-            "packageId": PACKAGE_ID,
-            "sha256Digest": "7c9e2100f842a1b34598c721d4e6f1029384756abcdef1234567890abcdef123",
-            "sourceVerified": True,
-            "notes": "Initial Official Release — GPS Chambai Kohat (EMIS: 16454)."
-        }
-    ]
-
+    """Version 1.6.0 target"""
+    new_code = 16
+    new_version_name = "1.6.0"
+    build_number = "build016"
+    history = []
     if os.path.exists(VERSION_FILE):
-        with open(VERSION_FILE, "r", encoding="utf-8") as fp:
-            state = json.load(fp)
-        prev_code = int(state.get("currentVersionCode", 2))
-        history = state.get("history", default_history)
-    else:
-        prev_code = 2
-        history = default_history
-
-    if "--keep-version" in sys.argv and prev_code >= 3:
-        new_code = prev_code
-    else:
-        new_code = prev_code + 1
-
-    # Sequential versionName: 1.0.(versionCode - 1) -> e.g. code 1 = 1.0.0, code 2 = 1.0.1, code 3 = 1.0.2
-    patch_num = max(0, new_code - 1)
-    new_version_name = f"1.0.{patch_num}"
-    build_number = f"build{new_code:03d}"
-
+        try:
+            with open(VERSION_FILE, "r", encoding="utf-8") as fp:
+                state = json.load(fp)
+            history = [h for h in state.get("history", []) if h.get("versionName") != "1.6.0"]
+        except Exception:
+            pass
     return new_code, new_version_name, build_number, history
-
-
 def sync_gradle_version(version_code: int, version_name: str):
     gradle_path = "android_project/app/build.gradle.kts"
-    if os.path.exists(gradle_path):
-        with open(gradle_path, "r", encoding="utf-8") as fp:
-            content = fp.read()
-        content = re.sub(r"versionCode\s*=\s*\d+", f"versionCode = {version_code}", content)
-        content = re.sub(r'versionName\s*=\s*"[^"]+"', f'versionName = "{version_name}"', content)
-        with open(gradle_path, "w", encoding="utf-8") as fp:
-            fp.write(content)
-        print(f"Synced {gradle_path} -> versionCode={version_code}, versionName={version_name}")
+    if not os.path.exists(gradle_path):
+        return
+    with open(gradle_path, "r", encoding="utf-8") as fp:
+        content = fp.read()
+    content = re.sub(r"versionCode\s*=\s*\d+", f"versionCode = {version_code}", content)
+    content = re.sub(r'versionName\s*=\s*"[^"]+"', f'versionName = "{version_name}"', content)
+    with open(gradle_path, "w", encoding="utf-8") as fp:
+        fp.write(content)
+    print(f"Synced {gradle_path} -> versionCode={version_code}, versionName={version_name}")
 
 
 def write_manifests(manifest_data: dict):
@@ -107,7 +56,7 @@ def patch_binary_android_manifest(manifest_bytes: bytearray, version_code: int, 
     inside binary AndroidManifest.xml.
     """
     # Replace existing 5-char version string ('1.0.0', '1.1.0', '1.0.1', etc.)
-    for candidate in ["1.0.0", "1.1.0", "1.0.1", "1.0.2", "1.0.3", "1.0.4", "1.0.5", "1.0.6", "1.0.7", "1.0.8", "1.0.9"]:
+    for candidate in ["1.6.0", "1.0.5", "1.0.6", "1.0.0", "1.1.0", "1.0.1", "1.0.2", "1.0.3", "1.0.4", "1.0.7", "1.0.8", "1.0.9"]:
         cand_bytes = candidate.encode("utf-16le")
         idx = manifest_bytes.find(cand_bytes)
         if idx != -1 and len(version_name) == len(candidate):
@@ -595,7 +544,7 @@ def build_aligned_v2_apk():
     for legacy_dir in ["apk", "public/apk", "dist/apk"]:
         if os.path.exists(legacy_dir):
             shutil.rmtree(legacy_dir, ignore_errors=True)
-    for old_ver in ["GPS_Chambai_v1.0.0_build001.apk", "GPS_Chambai_v1.0.1_build002.apk", "GPS_Chambai_v1.0.2_build003.apk", "GPS_Chambai_v1.0.4_build005.apk"]:
+    for old_ver in ["GPS_Chambai_v1.0.0_build001.apk", "GPS_Chambai_v1.0.1_build002.apk", "GPS_Chambai_v1.0.2_build003.apk", "GPS_Chambai_v1.0.4_build005.apk", "GPS_Chambai_v1.0.5_build006.apk"]:
         for folder in ["releases", "public/releases", "dist/releases"]:
             old_p = os.path.join(folder, old_ver)
             if os.path.exists(old_p):
